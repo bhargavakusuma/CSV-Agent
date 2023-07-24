@@ -35,7 +35,7 @@ def show_info_popup():
     popup_window.title("GUIDE | KULLANIM")
 
     # Crate label for show message.
-    message_label = tk.Label(popup_window, text="ENDO AI \n   \n\n\n-- TÜRKÇE -- \nArayacağınız değerleri \n H1, W1, L2 şeklinde yazınız \n Örnek : H1 değeri 15 olan ürünü bana bul.\n Endo AI yapay zeka ile ürün sorgulamaları yapmak için geliştirildi. \n Bu bot ile gündelik sohbet edemezsiniz. \n ENDO ürünlerini sorgulamak için özel üretildi.\n\n\n -- ENGLISH -- \nThe values which you gonna search \n type like H1, W1, L2. \n Example : H1 Find me model which H1 equals 15. \n\n Endo AI developed for query products with artifical intelligence.\n You can not daily chat with this bot.\n It is developed for help you in query ENDO Products.\n\n\n - Saka Studio")
+    message_label = tk.Label(popup_window, text="POP UP")
     message_label.pack(padx=20, pady=10)
 
     # for center your popup window.
