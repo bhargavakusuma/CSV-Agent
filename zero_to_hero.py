@@ -10,7 +10,8 @@ csv_path = 'YOUR CSV PATH'
 chat_gpt_api_key = 'YOUR API KEY'
 
 type_of_arifical_intelligence_model = 'text-davinci-003'
-
+#you can change openAI model name. Davinci 003 is too powerfull and the most expensive one. 
+#I suggest you to use Davinci 002 for more basic requests.
 startPrompt = ""
 
 df = pd.read_csv(csv_path)
