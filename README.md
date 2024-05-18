@@ -14,4 +14,4 @@ The average number of words in a document is 431.07 (19.77 sentences) and The av
 T5 is a state-of-the-art language model developed by Google Research that can perform various NLP tasks, such as translation, summarization, and text generation. In this , we will explore how to fine-tune T5 for text generation and demonstrate the results with a few examples. We will also discuss some best practices and considerations when fine-tuning T5 for text generation
 
 Text Generation with HuggingFace - GPT2
-# . In this notebook, I will explore text generation using a GPT-2 model, which was trained to predict next words on 40GB of Internet text data. 
+In this notebook, I will explore text generation using a GPT-2 model, which was trained to predict next words on 40GB of Internet text data. 
