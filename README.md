@@ -1,21 +1,17 @@
-CSV AGENT - Artificial Intelligence
 
-This applicaton made for manange and analyze your excel csv files easily with aritifical intelligence
+5.1 Problem Statement: Explore the potential of Large Language Models(LLMs) and Generative AI models like GPT for Natural Language Processing tasks, such as Text Generation, Summarization, or Question -Answering
 
-Features:
-- Provides a user-friendly experience with a Tkinter interface.
-- Trains and processes the artificial intelligence model by fetching data from a CSV table.
+As Provided dataset (https://huggingface.co/datasets/viewer/?dataset=json) is not working so i have choosen this Dataset called Extreme Summarization (XSum) Dataset with the T5 Text-To-Text Transfer Transformer from Hugging Face.
 
-Usage Guide:
-1. To run this application, you will need an OpenAI API key. Enter your API key in the 'YOUR API KEY' section.
-2. The application requires a CSV file to work with. Specify the path to the relevant CSV file in the 'YOUR CSV PATH' section.
-3. Add your logo file to determine the logo displayed in the interface.
-4. Input desired your table features in the Tkinter interface to perform queries with AI.
-5. Click the "CLEAR" button to clear the results in the text box.
+The dataset consists of BBC articles and accompanying single sentence summaries. Specifically, each article is prefaced with an introductory sentence (aka summary) which is professionally written, typically by the author of the article. There are two features in this dataset: (1) document: Input news article. (2) summary: One sentence summary of the article.
 
-Contribution:
-If you wish to contribute to this project, please submit pull requests. Your contributions are welcome!
+The idea is to generate a short, one-sentence news summary answering the question ”What is the article about?”.
 
-Notes:
-- This project uses a text-davinci-003 artifical intelligence model.
-- You can experiment with different artificial intelligence models to improve the application's performance. Adjust the 'type_of_arifical_intelligence_model' variable according to your preferred model.
+There are in total 226k samples: 204,045 samples for training data, 11,332 samples for validation data and 11,334 samples for test data.
+
+The average number of words in a document is 431.07 (19.77 sentences) and The average number of words in a summary is 23.26.
+
+T5 is a state-of-the-art language model developed by Google Research that can perform various NLP tasks, such as translation, summarization, and text generation. In this , we will explore how to fine-tune T5 for text generation and demonstrate the results with a few examples. We will also discuss some best practices and considerations when fine-tuning T5 for text generation
+
+Text Generation with HuggingFace - GPT2
+# . In this notebook, I will explore text generation using a GPT-2 model, which was trained to predict next words on 40GB of Internet text data. 
